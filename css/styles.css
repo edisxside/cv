@@ -8,3 +8,13 @@ body{
     border-right: none;
     width: 3%;
   }
+  .middle-container{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+  }
+  .bottom-container{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+  }
