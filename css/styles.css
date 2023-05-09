@@ -13,6 +13,7 @@ body{
   }
    .flex-container{
     display: flex;
+    align-content: space-between;
   }
   .flex-container > div {
     background-color: #f1f1f1;
@@ -21,7 +22,6 @@ body{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-    align-content: space-between;
   }
   hr{
     border-top: 5px dotted #023B5A;
