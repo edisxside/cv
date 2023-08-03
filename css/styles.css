@@ -4,77 +4,49 @@
   margin: 0;
   padding: 0;
 }
-
+.header{
+  text-align: center;
+  font-size: 32px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 32px;
+}
 body{
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #141414;
   color: #fff;
-    background-image: linear-gradient(#1c1e23, #7e4714, #b36900, #c47800);
-    width: 960px;
-    margin: 0 auto;
-  }
-
+  background: linear-gradient(75deg, #1c1e23 5%, #7e4714 25%, #b36900 25%, #c47800 25%);
+  width: 80%;
+  margin: 0 auto;
+  max-width: 900px; /* Ja ekrāns ir ļoti plats, tad maximālais satura platums būs šāds */
   
-  header{
-    background-color: #f3f3f3;
+}
+.top-wide-container{
+  width: 80%;
+  margin: auto; /* margin shorthand for centering elements */
+  background-color: burlywood;
+  padding: 20px;
+}
 
-  }
-  footer{
-    display: flex;
-    background-color: antiquewhite;
-    width: 960px;
-    margin: 0 auto;
-    justify-content: center;
-    padding: 5px;
-  }
-   .flex-container {
-    display: flex;
-    align-content: space-between;
-  }
-  .flex-container div {
-    background-color: #f3f3f3;
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-  }
-  hr{
-    border-top: 5px dotted #023B5A;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    width: 3%;
-  }
-  .top-container{
-    background-color: #5C5C5C;
-    color:antiquewhite;
-    height: fit-content;
-  }
-  #title{
-    font-family: Audiowide, Regular;
-    font-size: 4rem;
-    letter-spacing: 1px;
-  }
-  #position{
-    font-family: 'Courier New', Courier;
-    font-size: small;
-  }
-  #description{
-    font-size: medium;
-    font-family: Courier Prime;
-    
-  }
-  .middle-container{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-  }
-  .bottom-container{
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    margin-left: 200px;
-  }
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1, p{
+  text-align: center;
+}
+h1{
+  font-family: audiowide, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Ja Audiowide nerādīs, tad fallback būs tie fonti, kas aiz komata. */
+  padding-top: 50px;
+  margin-bottom: 25px;
+}
+.table1{
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  /* text-align: center; */
+  justify-content: center;
+}
+/* border: width style color; is a shorthand border style */
