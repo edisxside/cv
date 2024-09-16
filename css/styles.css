@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "Inter", sans-serif;
+  src: url("../assets/fonts/Inter-4.0/Inter.ttc");
   font-size: 16px;
   line-height: 1.5;
   background-color: #141414;
@@ -33,10 +34,13 @@ h1, p{
   text-align: center;
 }
 h1{
-  font-family: audiowide, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Ja Audiowide nerādīs, tad fallback būs tie fonti, kas aiz komata. */
+  /* font-family: audiowide, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; Ja Audiowide nerādīs, tad fallback būs tie fonti, kas aiz komata. */
   padding-top: 50px;
   margin-bottom: 25px;
-  font-size: clamp(1rem, 0.2728rem + 3.636vw, 3rem);
+  font-size: clamp(1rem, -0.091rem + 5.455vw, 4rem);
+}
+p {
+  font-size: clamp(1rem, 0.875rem + 0.625vw, 1.5rem);
 }
 
 #main {
