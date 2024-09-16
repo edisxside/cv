@@ -3,14 +3,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
-.header{
-  text-align: center;
-  font-size: 32px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  padding: 32px;
-}
-body{
+
+body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -19,13 +15,12 @@ body{
   background: linear-gradient(75deg, #1c1e23 5%, #7e4714 25%, #b36900 25%, #c47800 25%);
   width: 80%;
   margin: 0 auto;
-  max-width: 900px; /* Ja ekrāns ir ļoti plats, tad maximālais satura platums būs šāds */
+  max-width: 900px; /* max width for wide screens */
   
 }
-.top-wide-container{
+.top-wide-container {
   width: 80%;
   margin: auto; /* margin shorthand for centering elements */
-  background-color: burlywood;
   padding: 20px;
 }
 
@@ -42,11 +37,12 @@ h1{
   padding-top: 50px;
   margin-bottom: 25px;
 }
-.table1{
-  display: flex;
-  flex-direction: column;
-  padding: 35px;
-  /* text-align: center; */
-  justify-content: center;
+
+#main {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  align-content: center;
 }
 /* border: width style color; is a shorthand border style */
