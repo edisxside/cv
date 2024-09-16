@@ -36,6 +36,7 @@ h1{
   font-family: audiowide, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Ja Audiowide nerādīs, tad fallback būs tie fonti, kas aiz komata. */
   padding-top: 50px;
   margin-bottom: 25px;
+  font-size: clamp(1rem, 0.2728rem + 3.636vw, 3rem);
 }
 
 #main {
