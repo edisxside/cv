@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-#wrapper {
+#main-wrapper {
   position: relative;
   margin: 0 auto;
   padding: clamp(1rem, -0.0454rem + 5.227vw, 3.875rem);
@@ -31,21 +31,21 @@ body {
   width: clamp(15rem, 1.1364rem + 31.818vw, 25rem);
 }
 
-#spacer-l {
+.spacer-l {
   height: clamp(3.6rem, 0rem + 18vw, 13.5rem);
 }
 
-#spacer-m {
+.spacer-m {
   height: clamp(1.5rem, 1rem + 2vw, 2.5rem);
 }
 
-#spacer-s {
+.spacer-s {
   height: clamp(1rem, 0.75rem + 1vw, 1.5rem);
 }
 
-#content {
+#main-content {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: clamp(3.6rem, 0rem + 18vw, 13.5rem);
 }
 
@@ -67,13 +67,17 @@ font-weight: 500;
 margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 24px to 40px */
 
 h5 {font-size: clamp(1.25rem, 0.875rem + 1.5vw, 2rem);
-font-weight: 500;} /* 20px to 32px */
+font-weight: 500;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 20px to 32px */
 
 h6 {font-size: clamp(1rem, 0.75rem + 1vw, 1.5rem);
-font-weight: 500;} /* 16px to 28px */
+font-weight: 500;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 16px to 28px */
 
 body {font-size: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
-font-weight: normal;} /* 16px to 20px */
+font-weight: normal;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 16px to 20px */
 
-p {font-size: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
-font-weight: normal;}/* 16px to 20px */
+p {font-size: clamp(0.75rem, 0.7046rem + 0.227vw, 0.875rem);
+font-weight: normal;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);}/* 16px to 20px */
