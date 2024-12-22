@@ -3,11 +3,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* overflow: hidden; */
 }
 
 body {
-  margin-top: clamp(1rem, -0.0454rem + 5.227vw, 3.875rem);
   background: #282828;
   min-height: 100vh;
 }
@@ -19,16 +17,21 @@ body {
   width: 100%; /* Full width */
   max-width: clamp(20rem, 9.2272rem + 53.864vw, 49.625rem); /* A4 clamp for desktop */
   aspect-ratio: 210 / 297; /* Maintain A4 ratio */
-  /* border: 1px solid #000; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(45deg, rgba(194,230,253), rgba(255,0,0,0)),
-            linear-gradient(135deg, rgba(246,197,218), rgba(0,255,0,0)),
-            linear-gradient(225deg, rgba(248,241,223), rgba(0,255,0,0)),
-            linear-gradient(315deg, rgba(190,250,253), rgba(0,0,255,0));
+  linear-gradient(135deg, rgba(246,197,218), rgba(0,255,0,0)),
+  linear-gradient(225deg, rgba(248,241,223), rgba(0,255,0,0)),
+  linear-gradient(315deg, rgba(190,250,253), rgba(0,0,255,0));
 }
 
 #name {
   width: clamp(15rem, 1.1364rem + 31.818vw, 25rem);
+}
+
+#main-content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: clamp(3.6rem, 0rem + 18vw, 13.5rem);
 }
 
 .spacer-l {
@@ -43,11 +46,16 @@ body {
   height: clamp(1rem, 0.75rem + 1vw, 1.5rem);
 }
 
-#main-content {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: clamp(3.6rem, 0rem + 18vw, 13.5rem);
-  overflow: hidden;
+/* List styling */
+ul {
+  list-style-type: none;
+}
+
+/* Link styling */
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 /* Font Sizing */
