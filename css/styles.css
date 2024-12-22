@@ -1,7 +1,53 @@
 /* Base styles*/
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
+
+body {
+  margin: clamp(1rem, -0.0454rem + 5.227vw, 3.875rem);
+  background: linear-gradient(45deg, rgba(194,230,253,0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(135deg, rgba(246,197,218,0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(225deg, rgba(248,241,223,0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(315deg, rgba(190,250,253,0.8), rgba(0,0,255,0) 70.71%);
+  min-height: 100vh;
+}
+
+#name {
+  width: clamp(15rem, 1.1364rem + 31.818vw, 25rem);
+}
+
+#spacer {
+  height: clamp(3.6rem, 0rem + 18vw, 13.5rem);
+}
+
+/* Font Sizing */
+h1 {font-size: clamp(2.5rem, 1.75rem + 3vw, 4rem);
+font-weight: 900;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 40px to 64px */
+
+h2 {font-size: clamp(2rem, 1.25rem + 3vw, 3.5rem);
+font-weight: 800;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 32px to 56px */
+
+h3 {font-size: clamp(1.75rem, 1.125rem + 2.5vw, 3rem);
+font-weight: 700;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 28px to 48px */
+
+h4 {font-size: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+font-weight: 500;
+margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);} /* 24px to 40px */
+
+h5 {font-size: clamp(1.25rem, 0.875rem + 1.5vw, 2rem);
+font-weight: 500;} /* 20px to 32px */
+
+h6 {font-size: clamp(1rem, 0.75rem + 1vw, 1.5rem);
+font-weight: 500;} /* 16px to 28px */
+
+body {font-size: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
+font-weight: normal;} /* 16px to 20px */
+
+p {font-size: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
+font-weight: normal;}/* 16px to 20px */
