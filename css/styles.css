@@ -1,3 +1,16 @@
+/* Variables */
+
+:root {
+  --h1: clamp(2.5rem, 1.75rem + 3vw, 4rem);
+  --h2: clamp(2rem, 1.25rem + 3vw, 3.5rem);
+  --h3: clamp(1.75rem, 1.125rem + 2.5vw, 3rem);
+  --h4: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+  --h5: clamp(1.25rem, 0.875rem + 1.5vw, 2rem);
+  --h6: clamp(1rem, 0.75rem + 1vw, 1.5rem);
+  --body: clamp(1rem, 0.875rem + 0.5vw, 1.25rem);
+  --p: clamp(0.75rem, 0.7046rem + 0.227vw, 0.875rem);
+}
+
 /* Base styles*/
 * {
   box-sizing: border-box;
@@ -31,7 +44,7 @@ body {
 #main-content{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: clamp(3.6rem, 0rem + 18vw, 13.5rem);
+  gap: var(--h4);
 }
 
 .spacer-l {
@@ -39,16 +52,20 @@ body {
 }
 
 .spacer-m {
-  height: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+  height: var(--h4);
 }
 
 .spacer-s {
-  height: clamp(1rem, 0.75rem + 1vw, 1.5rem);
+  height: var(--h6);
 }
 
 /* List styling */
 ul {
   list-style-type: none;
+}
+
+.list__content {
+  padding-left: var(--h5);
 }
 
 /* Link styling */
