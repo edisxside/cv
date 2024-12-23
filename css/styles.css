@@ -68,6 +68,13 @@ ul {
   padding-left: var(--h5);
 }
 
+li .date__position--right {
+  float: inline-end;
+  color: #484848;
+  font-size: var(--p);
+  line-height: var(--h5);
+}
+
 /* Link styling */
 
 a {
