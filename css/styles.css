@@ -29,7 +29,7 @@ body {
   padding: clamp(1rem, -0.0454rem + 5.227vw, 3.875rem);
   width: 100%; /* Full width */
   max-width: clamp(20rem, 9.2272rem + 53.864vw, 49.625rem); /* A4 clamp for desktop */
-  aspect-ratio: 210 / 297; /* Maintain A4 ratio */
+  aspect-ratio: 210 / 297; Maintain A4 ratio
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(45deg, rgba(194,230,253), rgba(255,0,0,0)),
   linear-gradient(135deg, rgba(246,197,218), rgba(0,255,0,0)),
@@ -48,7 +48,7 @@ body {
 }
 
 .spacer-l {
-  height: clamp(3.6rem, 0rem + 18vw, 13.5rem);
+  height: var(--h1);
 }
 
 .spacer-m {
@@ -66,6 +66,10 @@ ul {
 
 .list__content {
   padding-left: var(--h5);
+}
+
+.list__item--underline {
+  text-decoration: underline black 1px;
 }
 
 li .date__position--right {
