@@ -37,6 +37,11 @@ body {
   linear-gradient(315deg, rgba(190,250,253), rgba(0,0,255,0));
 }
 
+#top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 #name {
   width: clamp(15rem, 1.1364rem + 31.818vw, 25rem);
 }
