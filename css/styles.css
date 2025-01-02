@@ -1,12 +1,11 @@
 @media only screen and (max-width: 375px) {
   /* Styles for Mobile resolutions */
-  #main-wrapper {
+  .main__wrapper {
     position: relative;
     margin: 0 auto;
     padding: var(--p);
     width: 100%; /* Full width */
-    max-width: clamp(20rem, 9.2272rem + 53.864vw, 49.625rem); /* A4 clamp for desktop */
-    aspect-ratio: 9 / 16;
+    height: 100vh;
   }
 }
 
@@ -34,7 +33,7 @@ body {
   min-height: 100vh;
 }
 
-#main-wrapper {
+.main__wrapper {
   position: relative;
   margin: 0 auto;
   padding: clamp(1rem, -0.0454rem + 5.227vw, 3.875rem);
