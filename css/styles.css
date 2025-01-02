@@ -69,7 +69,7 @@ ul {
   list-style-type: none;
 }
 
-.list__content {
+.list__item {
   padding-left: var(--h5);
 }
 
