@@ -1,5 +1,16 @@
-/* Variables */
+@media only screen and (max-width: 375px) {
+  /* Styles for Mobile resolutions */
+  #main-wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: var(--p);
+    width: 100%; /* Full width */
+    max-width: clamp(20rem, 9.2272rem + 53.864vw, 49.625rem); /* A4 clamp for desktop */
+    aspect-ratio: 9 / 16;
+  }
+}
 
+/* Variables */
 :root {
   --h1: clamp(2.5rem, 1.75rem + 3vw, 4rem);
   --h2: clamp(2rem, 1.25rem + 3vw, 3.5rem);
