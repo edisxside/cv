@@ -1,11 +1,12 @@
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 560px) {
   /* Styles for Mobile resolutions */
   .main__wrapper {
     position: relative;
     margin: 0 auto;
-    padding: var(--p);
+    padding: var(--h5);
     width: 100%; /* Full width */
     height: 100vh;
+
   }
 }
 
@@ -33,7 +34,7 @@ body {
   min-height: 100vh;
 }
 
-.main__wrapper {
+.main__wrapper{
   position: relative;
   margin: 0 auto;
   padding: clamp(1rem, -0.0454rem + 5.227vw, 3.875rem);
