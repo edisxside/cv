@@ -101,6 +101,13 @@ a {
   color: #000;
 }
 
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  color:#282828;
+}
+
 /* Font Sizing */
 h1 {font-size: clamp(2.5rem, 1.75rem + 3vw, 4rem);
 font-weight: 900;
