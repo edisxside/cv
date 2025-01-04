@@ -13,7 +13,26 @@
   <body>
     <section class="main__wrapper">
       <div class="form__frame">
-      
+        <h4>Contact me</h4>
+          <p>Leave Your contact details below</p>
+            <form action="contact_request.php" method="post">
+              <!-- <p> -->
+                <label for="fistName">Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter your name" class="form__input--padding-left" required autofocus>
+              <!-- </p> -->
+              <!-- <p> -->
+                <label for="company">Company:</label>
+                <input type="text" name="company" id="company" placeholder="Company You work for" class="form__input--padding-left" required>
+              <!-- </p> -->
+              <!-- <p> -->
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="name@example.com" class="form__input--padding-left">
+              <!-- </p> -->
+              <!-- <p> -->
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Leave a message" class="form__input--padding-left" rows="8"></textarea>
+              <!-- </p> -->
+              </form>
       </div>
 
     </section>
