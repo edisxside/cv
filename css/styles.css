@@ -152,6 +152,21 @@ margin-bottom: clamp(0.178125rem, 0.00032rem + 0.889vw, 0.666875rem);}/* 16px to
   linear-gradient(315deg, rgba(190,250,253), rgba(0,0,255,0));
 }
 
+.contact__button{
+  border: 1px solid #000;
+  border-radius: var(--h6);
+  text-align: center;
+}
+
+.contact__button:hover{
+  background-color: #777777;
+}
+
+.contact__button--decoration:hover {
+  text-decoration: none;
+  color: rgba(248,241,223);
+}
+
 .form__frame{
   position: relative;
   top: 25%;
