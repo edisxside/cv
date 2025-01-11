@@ -6,8 +6,8 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 
 // Email recipient
-$to = 'your_email@example.com';
-$subject = 'Contact Form Submission';
+$to = 'dodger.list@proton.me';
+$subject = 'CV Contact Form Submission';
 
 // Email headers
 $headers = "From: $name <$email>\r\n";
